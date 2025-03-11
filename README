@@ -1,0 +1,21 @@
+Little Calculator in C
+
+A simple calculator that supports basic mathematical operations. The project is written in C and uses pointers for passing parameters between functions.
+
+Features
+    Addition (+)
+    Subtraction (-)
+    Multiplication (*)
+    Division (/)
+    Modulo (%)
+
+Installation and Usage
+    Clone the repository or download the calc.c file.
+    Compile the program:
+        gcc -o calc calc.c -lm
+    Run the calculator:
+        ./calc
+    Follow the prompts to enter two numbers and select a mathematical operation.
+Notes
+    If division by zero is attempted, an error message will be shown.
+    The modulo operation also handles division by zero and shows an error message.
